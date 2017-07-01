@@ -1,0 +1,12 @@
+extends layout.pug
+block header
+  .page-header
+    .header__inner
+      .header__logo
+        img(src="#" alt="Логотип")
+        button.nav__toogle(type="button")
+      nav.header__nav.header__nav--closed
+          each item in ["main","main","main","main","main"] 
+            li(class="nav__item")
+              a(class=`link-${item}`)=item
+      

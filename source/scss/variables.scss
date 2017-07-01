@@ -1,0 +1,11 @@
+/*Большие мониторы*/
+$large-desctop: "min-width: 1200px";
+/*Средние мониторы и планшеты в альбомной ориентации*/
+$medium-desctop: "min-width: 992px and max-width: 1199px";
+/*Маленькие мониторы и планшеты в портретной ориентации*/
+$small-desctop: "min-width: 768px and max-width: 991px";
+/*Телефоны в альбомной ориентации и планшеты в портретной ориентации*/
+$big-phones: "max-width: 767px";
+/*Маленькие телефоны*/
+$phones: "max-width: 480px";
+
